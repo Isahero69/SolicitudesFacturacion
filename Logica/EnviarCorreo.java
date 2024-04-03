@@ -18,9 +18,9 @@ import javax.mail.internet.MimeMultipart;
 
 public class EnviarCorreo {
 
-    private final String correo = "isaiasgustavohernandezroman@gmail.com";
-    private final String contrasena = "uzjmhuzqqirupcih";
-    private final String correoDestino = "isaiasgustavohernandezroman@gmail.com";
+    private final String correo = "tu correo";
+    private final String contrasena = "toke de gmail para autorizacion de envio de correos";
+    private final String correoDestino = "correo destinatario";
 
     public void SendMail(List<File> archivoAdjunto, String html) throws MessagingException {
 
